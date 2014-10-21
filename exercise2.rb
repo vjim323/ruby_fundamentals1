@@ -1,4 +1,4 @@
-#Problem 1 - Good tip
+# #Problem 1 - Good tip
 
 puts "What amount of tips (in %) would you like to give?"
 
@@ -9,20 +9,17 @@ tip_dollar = meal_cost * tip_percentage / 100
 
 puts "Then you should tip $#{tip_dollar}!"
 
-#Problem 2 - String interpolation
+# #Problem 2 - Adding string and integer
 
-string = "This is problem "
-integer = 2
+puts "This is problem number " + 2.to_s
 
-puts string + "#{integer}"
-
-#Problem 3 - String interpolation
+# #Problem 3 - String interpolation
 
 number_1 = 45628
 number_2 = 7839
 
 puts "#{number_1} multiplied by #{number_2} is equal to #{number_1 * number_2}."
 
-#Problem 4 - Booleans
+# #Problem 4 - Booleans
 
 puts (true && false) || (false && true) || !(false && false)
